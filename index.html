@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Premium - Estilo Mezcal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header>
+        <div class="logo">MI MARCA</div>
+        <nav>
+            <a href="#historia">Nuestra Tierra</a>
+            <a href="#productos">Catálogo</a>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Paisaje Principal Pantalla Completa) -->
+    <!-- Nota: El efecto de aparición lenta está en la clase "anim-fade-in" -->
+    <section class="hero animar anim-fade-in">
+        <div class="hero-content">
+            <h1 class="animar anim-slide-up">El Espíritu de la Tierra</h1>
+            <p class="animar anim-slide-up delay-1">Tradición en cada gota.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Paisaje y Texto (Nuestra Historia) -->
+    <section id="historia" class="historia">
+        <div class="historia-texto animar anim-slide-right">
+            <h2>Nacidos del Paisaje</h2>
+            <p>Cultivamos nuestros productos respetando los tiempos de la naturaleza. Aquí puedes contar la historia de tu marca o mostrar la belleza de tu región.</p>
+        </div>
+        <div class="historia-imagen animar anim-slide-left">
+            <!-- Imagen de paisaje grande -->
+            <img src="https://images.unsplash.com/photo-1590420485404-f86d22b8abf8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Paisaje Agaves">
+        </div>
+    </section>
+
+    <!-- Sección de Productos (En blanco como pediste) -->
+    <section id="productos" class="productos-seccion">
+        <h2 class="animar anim-fade-in">Nuestro Catálogo</h2>
+        <div class="grid-productos">
+            
+            <!-- Producto 1 -->
+            <div class="tarjeta-producto animar anim-slide-up">
+                <div class="imagen-placeholder"></div> <!-- Espacio en blanco -->
+                <h3>Producto 1</h3>
+                <p>Descripción breve de tu producto.</p>
+                <button>Ver Detalles</button>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="tarjeta-producto animar anim-slide-up delay-1">
+                <div class="imagen-placeholder"></div> <!-- Espacio en blanco -->
+                <h3>Producto 2</h3>
+                <p>Descripción breve de tu producto.</p>
+                <button>Ver Detalles</button>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="tarjeta-producto animar anim-slide-up delay-2">
+                <div class="imagen-placeholder"></div> <!-- Espacio en blanco -->
+                <h3>Producto 3</h3>
+                <p>Descripción breve de tu producto.</p>
+                <button>Ver Detalles</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
